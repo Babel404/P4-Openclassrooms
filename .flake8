@@ -1,0 +1,8 @@
+[flake8]
+exclude=
+    env/,
+    venv/,
+    README.md,
+    requirements.txt
+
+max-line-length = 119
