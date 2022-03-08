@@ -1,7 +1,7 @@
 NB_PLAYERS = 8  # nb de joueur sur un tournoi
 NB_ROUNDS = 4  # nb de tours dans un tournoi
 
-TIME_CONTROL = ("Bullet", "Blitz", "Coup Rapide")  
+TIME_CONTROL = ("Bullet", "Blitz", "Coup Rapide")
 
 PLAYERS_DEMO = [
     {

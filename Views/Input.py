@@ -20,6 +20,7 @@ def user_choice_menu(possibilities):
         print("\nValeur incorrecte - Veuillez saisir un chiffre svp !")
         return user_choice_menu(possibilities)
 
+
 # INPUT JOUEUR
 def date_of_birth():
     user_date_of_birth = input("Date de naissance (JJ/MM/AAAA) : ")
@@ -81,6 +82,7 @@ def return_player_with_unique_id():
         print("Veuillez renseigner une information valide svp !")
         return return_player_with_unique_id()
 
+
 # INPUT TOURNOI
 def basic_informations(type_of_information):
     information = ''
@@ -92,6 +94,7 @@ def basic_informations(type_of_information):
         information = input("Description du tournoi : ")
 
     return information
+
 
 def add_date():
     """

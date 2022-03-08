@@ -7,6 +7,7 @@ from Models.Player import Player
 from Models.Tournament import Tournament
 from default_values import NB_PLAYERS
 
+
 # JOUEUR
 def created_player(player):
     print(f"{player.last_name} {player.first_name} créé(e) avec l'ID n°{player.id}")
